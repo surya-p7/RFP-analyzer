@@ -1,0 +1,30 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="rfp-analyzer",
+    version="1.0.0",
+    packages=find_packages(),
+    install_requires=[
+        "wheel>=0.42.0",
+        "setuptools>=68.0.0",
+        "build>=1.0.3",
+        "pdfminer.six>=20221105",
+        "paddleocr>=2.7.0",
+        "sentence-transformers>=2.2.2",
+        "faiss-cpu>=1.7.4",
+        "chromadb>=0.4.22",
+        "python-dotenv>=1.0.0",
+        "fastapi>=0.104.1",
+        "uvicorn>=0.24.0",
+        "pydantic>=2.5.2",
+        "python-multipart>=0.0.6",
+        "streamlit>=1.31.0",
+        "reportlab>=4.0.8",
+        "python-pptx>=0.6.23",
+        "requests>=2.31.0",
+        "numpy>=1.24.0",
+        "pandas>=2.1.0",
+        "scikit-learn>=1.3.0",
+    ],
+    python_requires=">=3.8",
+) 
